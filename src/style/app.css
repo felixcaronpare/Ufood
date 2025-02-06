@@ -1,0 +1,42 @@
+.title-color {
+  background-color: #485fc7 !important;
+  color: white !important;
+  font-weight: bold !important;
+  font-size: large;
+}
+.pages-content {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 4.5em !important;
+}
+
+.genres-background {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+.half-page-to-full {
+  width: 49.7%;
+}
+
+.container-flex-direction {
+  flex-direction: row;
+}
+
+.loading {
+  text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .container-flex-direction {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .half-page-to-full {
+    width: 100%;
+  }
+  .pages-content {
+    padding-top: 5.5em !important;
+  }
+}

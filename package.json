@@ -1,0 +1,51 @@
+{
+  "name": "vue-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@mapbox/mapbox-gl-geocoder": "^5.0.1",
+    "@mapbox/search-js-web": "^1.0.0-beta.18",
+    "@turf/turf": "^6.5.0",
+    "bulma": "^0.9.4",
+    "clear": "^0.1.0",
+    "core-js": "^3.33.1",
+    "google-auth-library": "^9.4.1",
+    "js-cookie": "^3.0.5",
+    "js-sha256": "^0.10.1",
+    "mapbox": "^1.0.0-beta10",
+    "mapbox-gl": "^2.15.0",
+    "mapbox-gl-geocoder": "^2.0.1",
+    "mitt": "^3.0.1",
+    "vue": "^3.3.6",
+    "vue-router": "^4.2.5",
+    "vuetify": "^3.3.22"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/eslint-parser": "^7.22.15",
+    "@babel/plugin-transform-runtime": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-plugin-unit-jest": "^5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "@vue/compiler-sfc": "^3.1.0",
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "@vue/test-utils": "2.4.1",
+    "@vue/vue3-jest": "^27.0.0",
+    "babel-core": "7.0.0-bridge.0",
+    "eslint": "^8.21.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "jest": "^27.0.0",
+    "jest-watch-typeahead": "^2.2.2",
+    "prettier": "^3.0.3"
+  }
+}
